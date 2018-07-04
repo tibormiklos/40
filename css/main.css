@@ -1,4 +1,4 @@
-/*! Primitive A front end Sass boilerplate Author: Tania Rascia  */
+/*! Primitive A front end Sass boilerplate Author: Tania Rascia */
 /* Variables =============== All variables and most of the configuration is defined on this page. */
 /* Containers */
 /* Breakpoints */
@@ -280,3 +280,4 @@ caption { padding: 1rem 0; caption-side: bottom; color: #ababab; }
 
 /* Navigation =============== */
 /* Layout =============== */
+section.day { border: 1px solid #f0f0f0; margin-bottom: 30px; }

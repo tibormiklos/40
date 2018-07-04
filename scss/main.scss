@@ -1,7 +1,7 @@
 /*! Primitive
  * A front end Sass boilerplate
  *
- * Author: Tania Rascia 
+ * Author: Tania Rascia
  */
 
 // Configuration
@@ -19,5 +19,10 @@
 @import "components/buttons";
 @import "components/forms";
 @import "components/tables";
-@import "components/navigation"; 
-@import "components/layout"; 
+@import "components/navigation";
+@import "components/layout";
+
+section.day {
+  border: 1px solid #f0f0f0;
+  margin-bottom:30px;
+}
