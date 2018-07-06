@@ -18,9 +18,8 @@ $desktop: $medium;
 
 /* Colors */
 
-$background: white; 
 $primary-color: #0366EE;
-$secondary-color: #29de7d; 
+$secondary-color: #29de7d;
 $accent-color: #cdcdcd;
 $alternate-background: #fafafa;
 $alternate-color: #404040;
@@ -29,24 +28,27 @@ $link-hover-color: darken($link-color, 15%);
 $highlight: #ffeea8;
 $error: #D33C40;
 $bq-border: 16px solid #f0f0f0;
+$background: $primary-color;
 
 /* Typography */
 
 // Body font
 $font-size: 1rem;
-$body-font-size: 1rem;
+$body-font-size: 1.75rem;
 $font-style: normal;
 $font-variant: normal;
-$font-weight: normal;
-$font-color: #404040;
-$font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
-$line-height: 1.6;
+$font-weight: 300;
+$font-color: #ffffff;
+$font-family: 'Athiti', -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+$line-height: 1.5;
 
 // Headings
-$heading-font-color: #404040;
-$heading-font-weight: 600;
-$heading-font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
-$heading-line-height: 1.2;
+$heading-font-color: $secondary-color;
+$heading-font-weight: 700;
+$heading-font-family: 'Athiti', -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+$heading-line-height: 1;
+
+
 
 // Mobile heading font size
 $h1-mobile: 1.75rem;
@@ -56,7 +58,7 @@ $h4-mobile: 1.1rem;
 $h5-mobile: 1rem;
 
 // Heading font size
-$h1: 2.25rem;
+$h1: 5.25rem;
 $h2: 2rem;
 $h3: 1.75rem;
 $h4: 1.5rem;
@@ -64,9 +66,9 @@ $h5: 1.25rem;
 
 /* Padding */
 
-$padding: 1rem;
-$margins: 1.5rem;
-$content-padding: 60px 0;
+$padding: 2rem;
+$margins: 4rem;
+$content-padding: 30px 0;
 $content-padding-mobile: 30px 0;
 
 /* Borders */
@@ -79,7 +81,7 @@ $borders: $border-width $border-style $border-color;
 
 /* Buttons */
 
-$button-background: $primary-color;
+$button-background: $secondary-color;
 $button-background-hover: darken($button-background, 10%);
 $button-color: #ffffff;
 $button-font-weight: 600;
@@ -104,8 +106,8 @@ $muted-background-hover: transparent;
 $muted-color: darken($accent-color, 50%);
 $muted-color-hover: darken($accent-color, 50%);
 
-// Round Buttons   
-$round-buttons: 40px; 
+// Round Buttons
+$round-buttons: 40px;
 
 /* Forms */
 

@@ -23,6 +23,14 @@
 @import "components/layout";
 
 section.day {
-  border: 1px solid #f0f0f0;
+  // border: 1px solid #f0f0f0;
   margin-bottom:30px;
+}
+
+.waypoint ul {
+  list-style: none;
+}
+
+.waypoint ul li {
+  margin-left:0;
 }
