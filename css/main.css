@@ -87,15 +87,15 @@ h1:not(:first-child), h2:not(:first-child), h3:not(:first-child), h4:not(:first-
 
 h1:not(:first-child), h2:not(:first-child), h3:not(:first-child) { margin-top: 2rem; }
 
-h1 { font-size: 1.75rem; }
+h1 { font-size: 3rem; }
 
-h2 { font-size: 1.5rem; }
+h2 { font-size: 3rem; }
 
-h3 { font-size: 1.25rem; }
+h3 { font-size: 2rem; }
 
-h4 { font-size: 1.1rem; }
+h4 { font-size: 2rem; }
 
-h5 { font-size: 1rem; }
+h5 { font-size: 2rem; }
 
 @media (min-width: 600px) { h1:not(:first-child), h2:not(:first-child), h3:not(:first-child) { margin-top: 2.5rem; }
   h1 { font-size: 5.25rem; }
@@ -280,7 +280,7 @@ caption { padding: 2rem 0; caption-side: bottom; color: #ababab; }
 
 /* Navigation =============== */
 /* Layout =============== */
-section.day { margin-bottom: 30px; }
+section.day { border-bottom: 1px solid #f0f0f0; margin-bottom: 300px; }
 
 .waypoint ul { list-style: none; }
 
