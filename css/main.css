@@ -285,3 +285,7 @@ section.day { border-bottom: 1px solid #f0f0f0; margin-bottom: 300px; }
 .waypoint ul { list-style: none; }
 
 .waypoint ul li { margin-left: 0; }
+
+section.update h1, section.update p, section.update li, section.update a { color: #29de7d; }
+
+section.update a { text-decoration: underline; }

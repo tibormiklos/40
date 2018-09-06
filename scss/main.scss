@@ -34,3 +34,10 @@ section.day {
 .waypoint ul li {
   margin-left:0;
 }
+
+section.update {
+  h1, p, li, a {
+  color:$secondary-color;
+}
+  a { text-decoration:underline;}
+}
