@@ -41,3 +41,10 @@ section.update {
 }
   a { text-decoration:underline;}
 }
+
+section.yay {
+  h1, h2, h3, p, li, a {
+  color:$error;
+}
+  a { text-decoration:underline;}
+}

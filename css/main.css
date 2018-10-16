@@ -255,7 +255,7 @@ label { font-weight: 600; max-width: 100%; display: block; margin: 1rem 0 .5rem;
 
 @media (min-width: 600px) { .split-form label { text-align: right; padding: 0 .5rem; margin-bottom: 1rem; } }
 
-input.has-error, input.has-error:hover, input.has-error:focus, input.has-error:active, select.has-error, select.has-error:hover, select.has-error:focus, select.has-error:active, textarea.has-error, textarea.has-error:hover, textarea.has-error:focus, textarea.has-error:active { border: 1px solid #D33C40; box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 6px #f4cecf; }
+input.has-error, input.has-error:hover, input.has-error:focus, input.has-error:active, select.has-error, select.has-error:hover, select.has-error:focus, select.has-error:active, textarea.has-error, textarea.has-error:hover, textarea.has-error:focus, textarea.has-error:active { border: 1px solid #FF3E00; box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 6px #ffc5b3; }
 
 ::-webkit-input-placeholder, ::-moz-placeholder, :-moz-placeholder, :-ms-input-placeholder { color: #9a9a9a; }
 
@@ -289,3 +289,7 @@ section.day { border-bottom: 1px solid #f0f0f0; margin-bottom: 300px; }
 section.update h1, section.update h2, section.update h3, section.update p, section.update li, section.update a { color: #29de7d; }
 
 section.update a { text-decoration: underline; }
+
+section.yay h1, section.yay h2, section.yay h3, section.yay p, section.yay li, section.yay a { color: #FF3E00; }
+
+section.yay a { text-decoration: underline; }
